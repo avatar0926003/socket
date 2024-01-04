@@ -1,0 +1,3 @@
+rwrw--,a1,AOS-students,642383872,Thu Dec 23 21:52:34 2021,1g
+rw-rw-,a1,AOS-students,0,Thu Dec 23 21:52:34 2021,test.txt
+rwrwrw,a1,AOS-students,2378,Thu Dec 23 21:52:34 2021,testfile.txt

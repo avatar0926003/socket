@@ -1,0 +1,25 @@
+The first command, “create”, is to help Ken create a file on the server, where the third
+parameter gives the file’s permissions (‘r’ and ‘w’ respectively represent reading and
+writing permissions, while ‘-’ indicates no permission). The second command, “read”,
+allows Ken to download the file from the server (only when he has the corresponding
+permission and the file does exist). The third command, “write”, allows Ken to upload (and revise) an existing file, where the third parameter can be either ‘o’ or ‘a’, which
+allows Ken to either overwrite the original file or append his data in the end of the file,
+respectively. Similarly, Ken can write the file if he has the corresponding permission
+and the file does exist. The last command, “changemode”, is used to modify the file’s
+permissions. The revised permissions take effect for the following operations after the
+change command. Notice that all clients operate the files in the same directory on the
+server side. The server must use CAPABILITY LISTS to manage the permissions of
+files. You have to show TAs how the capability lists change for each operation on
+the server side.The first command, “create”, is to help Ken create a file on the server, where the third
+parameter gives the file’s permissions (‘r’ and ‘w’ respectively represent reading and
+writing permissions, while ‘-’ indicates no permission). The second command, “read”,
+allows Ken to download the file from the server (only when he has the corresponding
+permission and the file does exist). The third command, “write”, allows Ken to upload (and revise) an existing file, where the third parameter can be either ‘o’ or ‘a’, which
+allows Ken to either overwrite the original file or append his data in the end of the file,
+respectively. Similarly, Ken can write the file if he has the corresponding permission
+and the file does exist. The last command, “changemode”, is used to modify the file’s
+permissions. The revised permissions take effect for the following operations after the
+change command. Notice that all clients operate the files in the same directory on the
+server side. The server must use CAPABILITY LISTS to manage the permissions of
+files. You have to show TAs how the capability lists change for each operation on
+the server side.
